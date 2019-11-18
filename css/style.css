@@ -6,11 +6,14 @@
 
 .header {
   position: relative;
-  width: 60%;
   height: 250px;
-  margin: auto;
   background-color: black;
-  /* marginbottom */
+  margin-bottom: 10px;
+}
+
+.page {
+  width: 60%;
+  margin:auto;
 }
 
 .box1 {
@@ -49,7 +52,6 @@ nav {
 }
 
 .main {
-  width: 60%;
   margin: auto;
   margin: 10px auto;
 }
@@ -70,15 +72,15 @@ nav {
   margin-bottom: 10px;
 }
 
-.red {
+.widget {
   width: 100%;
-  margin-top: 14px;
   background-color: red;
+  height: 160px;
+  margin-bottom: 10px;
 }
 
 .footer {
-  width: 60%;
-  height: 60px;
+  height: 100px;
   background-color: grey;
   margin: 10px auto;
 }
