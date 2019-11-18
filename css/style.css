@@ -10,6 +10,7 @@
   height: 250px;
   margin: auto;
   background-color: black;
+  /* marginbottom */
 }
 
 .box1 {
@@ -57,14 +58,14 @@ nav {
   float: left;
 }
 
-.orange1 {
+.col-left {
   width: 25%;
 }
-.orange2 {
+.col-center {
   width: 40%;
   margin: 0 5%;
 }
-.orange3 {
+.col-right {
   width: 25%;
   margin-bottom: 10px;
 }
