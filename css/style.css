@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 .header {
   position: relative;
   width: 60%;
@@ -41,4 +39,31 @@ nav {
   background-color: lightgreen;
   bottom:0;
   left: 0;
+}
+
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main {
+  width: 60%;
+  margin: auto;
+}
+
+.float-left {
+  float: left;
+  background-color: orange;
+}
+
+.orange1 {
+  width: 25%;
+}
+.orange2 {
+  width: 40%;
+  margin: 0 5%;
+}
+.orange3 {
+  width: 25%;
 }
