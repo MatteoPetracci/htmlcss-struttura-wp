@@ -31,5 +31,14 @@
   background-color: red;
   left: 50%;
   transform: translate(-50%, -50%);
-  bottom: 10%;
+  bottom: 15%;
+}
+
+nav {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  background-color: lightgreen;
+  bottom:0;
+  left: 0;
 }
