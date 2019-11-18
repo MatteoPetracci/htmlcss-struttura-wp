@@ -50,11 +50,11 @@ nav {
 .main {
   width: 60%;
   margin: auto;
+  margin: 10px auto;
 }
 
 .float-left {
   float: left;
-  background-color: orange;
 }
 
 .orange1 {
@@ -66,4 +66,18 @@ nav {
 }
 .orange3 {
   width: 25%;
+  margin-bottom: 10px;
+}
+
+.red {
+  width: 100%;
+  margin-top: 14px;
+  background-color: red;
+}
+
+.footer {
+  width: 60%;
+  height: 60px;
+  background-color: grey;
+  margin: 10px auto;
 }
